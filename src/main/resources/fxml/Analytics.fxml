@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentregistration.controllers.AnalyticsController">
+   <top>
+      <VBox styleClass="analytics-header">
+         <children>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                  <Label styleClass="analytics-title" text="Analytics and Reports">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Button fx:id="refreshButton" onAction="#handleRefresh" styleClass="refresh-button" text="Refresh Data" />
+                  <Button fx:id="backButton" onAction="#handleBack" styleClass="secondary-button" text="Back" />
+               </children>
+            </HBox>
+            
+            <!-- Statistics Cards -->
+            <HBox spacing="15.0" styleClass="analytics-stats" alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" styleClass="analytics-stat-card">
+                     <children>
+                        <Label fx:id="totalStudentsLabel" styleClass="analytics-stat-number" text="0" />
+                        <Label styleClass="analytics-stat-label" text="Total Students" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" styleClass="analytics-stat-card">
+                     <children>
+                        <Label fx:id="totalCoursesLabel" styleClass="analytics-stat-number" text="0" />
+                        <Label styleClass="analytics-stat-label" text="Available Courses" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" styleClass="analytics-stat-card">
+                     <children>
+                        <Label fx:id="totalRegistrationsLabel" styleClass="analytics-stat-number" text="0" />
+                        <Label styleClass="analytics-stat-label" text="Total Registrations" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" styleClass="analytics-stat-card">
+                     <children>
+                        <Label fx:id="averageCoursesLabel" styleClass="analytics-stat-number" text="0.0" />
+                        <Label styleClass="analytics-stat-label" text="Avg Courses/Student" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="25.0" right="25.0" top="20.0" />
+         </padding>
+      </VBox>
+   </top>
+   
+   <center>
+      <ScrollPane fitToWidth="true" styleClass="analytics-scroll">
+         <content>
+            <VBox spacing="20.0">
+               <children>
+                  <!-- Main Charts Row -->
+                  <HBox spacing="20.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <VBox spacing="10.0" styleClass="chart-container" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="chart-title" text="Student Distribution by Courses (Pie Chart)">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <PieChart fx:id="studentDistributionPieChart" styleClass="analytics-pie-chart" prefHeight="300.0" />
+                           </children>
+                        </VBox>
+                        
+                        <VBox spacing="10.0" styleClass="chart-container" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="chart-title" text="Student Distribution by Courses (Bar Chart)">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <BarChart fx:id="studentDistributionBarChart" styleClass="analytics-bar-chart" prefHeight="300.0">
+                                 <xAxis>
+                                    <CategoryAxis side="BOTTOM" />
+                                 </xAxis>
+                                 <yAxis>
+                                    <NumberAxis side="LEFT" />
+                                 </yAxis>
+                              </BarChart>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  
+                  <!-- Secondary Charts Row -->
+                  <HBox spacing="20.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <VBox spacing="10.0" styleClass="chart-container" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="chart-title" text="Program Distribution">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <PieChart fx:id="programDistributionChart" styleClass="analytics-pie-chart" prefHeight="250.0" />
+                           </children>
+                        </VBox>
+                        
+                        <VBox spacing="10.0" styleClass="chart-container" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="chart-title" text="Credits Distribution">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <BarChart fx:id="creditsDistributionChart" styleClass="analytics-bar-chart" prefHeight="250.0">
+                                 <xAxis>
+                                    <CategoryAxis side="BOTTOM" />
+                                 </xAxis>
+                                 <yAxis>
+                                    <NumberAxis side="LEFT" />
+                                 </yAxis>
+                              </BarChart>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  
+                  <!-- Analytics Data Panel -->
+                  <VBox spacing="10.0" styleClass="analytics-data-panel">
+                     <children>
+                        <Label styleClass="analytics-data-title" text="Detailed Analytics Report">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="analyticsDataList" styleClass="analytics-data-list" prefHeight="200.0" />
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="25.0" left="25.0" right="25.0" top="10.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </center>
+</BorderPane>

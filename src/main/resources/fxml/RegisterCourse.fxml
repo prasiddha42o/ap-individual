@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentregistration.controllers.RegisterCourseController">
+   <top>
+      <VBox styleClass="compact-page-header">
+         <children>
+            <Label styleClass="compact-page-title" text="Register for Courses">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="statusLabel" styleClass="compact-status-info" text="Loading courses..." />
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="20.0" right="20.0" top="15.0" />
+         </padding>
+      </VBox>
+   </top>
+   
+   <center>
+      <VBox spacing="15.0">
+         <children>
+            <TableView fx:id="availableCoursesTable" styleClass="compact-course-table">
+               <columns>
+                  <TableColumn fx:id="courseCodeColumn" prefWidth="80.0" text="Code" />
+                  <TableColumn fx:id="courseNameColumn" prefWidth="200.0" text="Course Name" />
+                  <TableColumn fx:id="instructorColumn" prefWidth="120.0" text="Instructor" />
+                  <TableColumn fx:id="creditsColumn" prefWidth="60.0" text="Credits" />
+                  <TableColumn fx:id="scheduleColumn" prefWidth="150.0" text="Schedule" />
+               </columns>
+            </TableView>
+            
+            <HBox alignment="CENTER" spacing="15.0">
+               <children>
+                  <Button fx:id="registerButton" onAction="#handleRegister" styleClass="primary-button" text="Register" />
+                  <Button fx:id="backButton" onAction="#handleBack" styleClass="secondary-button" text="Back" />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>

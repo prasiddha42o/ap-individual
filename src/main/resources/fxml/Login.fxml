@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentregistration.controllers.LoginController">
+   <center>
+      <VBox alignment="CENTER" spacing="20.0" styleClass="login-container">
+         <children>
+            <VBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Label styleClass="title" text="Student Course Registration System">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label styleClass="subtitle" text="Login to your account or register to get started">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            
+            <VBox alignment="CENTER" spacing="15.0" styleClass="form-container">
+               <children>
+                  <VBox spacing="5.0">
+                     <children>
+                        <Label text="Username / Student ID:" />
+                        <TextField fx:id="usernameField" promptText="Enter your student ID" styleClass="text-field" />
+                     </children>
+                  </VBox>
+                  
+                  <VBox spacing="5.0">
+                     <children>
+                        <Label text="Password:" />
+                        <PasswordField fx:id="passwordField" promptText="Enter your password" styleClass="text-field" />
+                     </children>
+                  </VBox>
+                  
+                  <HBox alignment="CENTER" spacing="10.0">
+                     <children>
+                        <Button fx:id="loginButton" onAction="#handleLogin" styleClass="primary-button" text="Login" />
+                     </children>
+                  </HBox>
+                  <Label text="Don't Have an Account? Register Here">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="registerButton" onAction="#handleRegister" styleClass="register-button" text="Register" />
+                  
+                  <Label fx:id="statusLabel" styleClass="status-label" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
+               </padding>
+            </VBox>
+            
+            <VBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Separator />
+                  <Button onAction="#handleExit" styleClass="secondary-button" text="Exit Application" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>

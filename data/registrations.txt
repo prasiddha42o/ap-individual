@@ -1,0 +1,4 @@
+# Registration Log Format: Timestamp,StudentID,Action,CourseCode,Details
+# Actions: REGISTER, DROP, LOGIN, PROFILE_UPDATE, STUDENT_REGISTERED
+# Created: 2025-08-02 12:08:52
+

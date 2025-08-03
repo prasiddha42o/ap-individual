@@ -1,0 +1,8 @@
+# Analytics Data File
+# This file stores computed analytics data for faster retrieval
+# Format: Timestamp,DataType,Key,Value
+# Created: 2025-08-02 12:08:52
+
+2025-08-02 12:09:18,STATISTICS,TOTAL_STUDENTS,0
+2025-08-02 12:09:18,STATISTICS,TOTAL_COURSES,12
+2025-08-02 12:09:18,STATISTICS,TOTAL_REGISTRATIONS,0

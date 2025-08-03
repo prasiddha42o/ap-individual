@@ -1,0 +1,22 @@
+# Course Data Format: Code,Name,Instructor,Credits,Schedule
+# Created: 2025-08-02 12:08:52
+
+# Computer Science Courses
+CS101,Introduction to Programming,Dr. Johnson,3,MWF 9:00-10:00
+CS201,Data Structures and Algorithms,Dr. Williams,4,TTh 11:00-12:30
+CS301,Database Management Systems,Dr. Brown,3,MWF 2:00-3:00
+CS401,Software Engineering,Dr. Davis,4,TTh 3:30-5:00
+CS501,Machine Learning,Dr. Garcia,3,MWF 1:00-2:00
+
+# Information Technology Courses
+IT101,Web Development Fundamentals,Prof. Wilson,3,MWF 10:00-11:00
+IT201,Network Security,Prof. Miller,3,TTh 1:00-2:30
+IT301,Cloud Computing,Prof. Anderson,4,MWF 3:00-4:00
+
+# Mathematics Courses
+MATH201,Discrete Mathematics,Dr. Taylor,4,MWF 11:00-12:00
+MATH301,Statistics for Computer Science,Dr. Lee,3,TTh 9:30-11:00
+
+# General Education Courses
+ENG101,Technical Writing,Prof. Thompson,2,TTh 9:00-10:00
+ENG201,Communication Skills,Prof. Martinez,2,MWF 8:00-9:00

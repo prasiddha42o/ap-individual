@@ -1,0 +1,8 @@
+# Student Data Format: ID,Name,Email,Program,Semester,Password,RegisteredCourses
+# Created: 2025-08-02 12:08:52
+# Students must register through the application to create accounts
+
+# Admin account for system management
+admin,System Administrator,admin@university.edu,Administration,N/A,admin,
+
+# Student accounts will be added here when they register

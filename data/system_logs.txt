@@ -1,0 +1,45 @@
+2025-08-02 12:08:52 | System | Created data directory
+2025-08-02 12:08:52 | System | Initialized students.txt - empty for new registrations
+2025-08-02 12:08:52 | System | Initialized courses.txt with course catalog
+2025-08-02 12:08:52 | System | Initialized registrations.txt for tracking
+2025-08-02 12:08:52 | System | Initialized analytics.txt for data storage
+2025-08-02 12:08:57 | System | Loaded 1 students from file
+2025-08-02 12:09:04 | System | Loaded 1 students from file
+2025-08-02 12:09:04 | admin | Successful login
+2025-08-02 12:09:06 | System | Loaded 12 courses from file
+2025-08-02 12:09:06 | System | Loaded 1 students from file
+2025-08-02 12:09:06 | System | Loaded 12 courses from file
+2025-08-02 12:09:06 | System | Loaded 1 students from file
+2025-08-02 12:09:06 | admin | Accessed dashboard
+2025-08-02 12:09:15 | System | Loaded 1 students from file
+2025-08-02 12:09:15 | System | Loaded 12 courses from file
+2025-08-02 12:09:15 | System | Loaded 1 students from file
+2025-08-02 12:09:15 | System | Loaded 12 courses from file
+2025-08-02 12:09:15 | admin | Refreshed dashboard
+2025-08-02 12:09:18 | admin | Navigated to Analytics
+2025-08-02 12:09:18 | System | Loaded 1 students from file
+2025-08-02 12:09:18 | System | Loaded 12 courses from file
+2025-08-02 12:09:18 | System | Loaded 1 students from file
+2025-08-02 12:09:18 | System | Loaded 12 courses from file
+2025-08-02 12:09:18 | System | Loaded 1 students from file
+2025-08-02 12:09:18 | System | Loaded 1 students from file
+2025-08-02 12:09:18 | System | Loaded 12 courses from file
+2025-08-02 12:09:18 | System | Loaded 1 students from file
+2025-08-02 12:09:18 | System | Loaded 12 courses from file
+2025-08-02 12:09:18 | System | Loaded 1 students from file
+2025-08-02 12:09:18 | System | Loaded 12 courses from file
+2025-08-02 12:09:18 | admin | Accessed Analytics page
+2025-08-02 12:09:25 | System | Loaded 12 courses from file
+2025-08-02 12:09:25 | System | Loaded 1 students from file
+2025-08-02 12:09:25 | System | Loaded 12 courses from file
+2025-08-02 12:09:25 | System | Loaded 1 students from file
+2025-08-02 12:09:25 | admin | Accessed dashboard
+2025-08-02 12:09:28 | admin | Navigated to Course Registration
+2025-08-02 12:09:28 | System | Loaded 12 courses from file
+2025-08-02 12:09:30 | System | Loaded 12 courses from file
+2025-08-02 12:09:30 | System | Loaded 1 students from file
+2025-08-02 12:09:30 | System | Loaded 12 courses from file
+2025-08-02 12:09:30 | System | Loaded 1 students from file
+2025-08-02 12:09:30 | admin | Accessed dashboard
+2025-08-02 12:09:34 | admin | Logged out
+2025-08-02 12:09:34 | System | Loaded 1 students from file
