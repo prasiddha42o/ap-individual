@@ -2,3 +2,5 @@
 # Actions: REGISTER, DROP, LOGIN, PROFILE_UPDATE, STUDENT_REGISTERED
 # Created: 2025-08-02 12:08:52
 
+2025-08-03 19:04:26,STU1569,STUDENT_REGISTERED,N/A,New student account created: Prasiddha Lamichhane
+2025-08-03 19:40:56,admin,REGISTER,CS101,Introduction to Programming

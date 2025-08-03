@@ -43,3 +43,158 @@
 2025-08-02 12:09:30 | admin | Accessed dashboard
 2025-08-02 12:09:34 | admin | Logged out
 2025-08-02 12:09:34 | System | Loaded 1 students from file
+2025-08-03 19:02:13 | System | Loaded 1 students from file
+2025-08-03 19:02:20 | System | Loaded 1 students from file
+2025-08-03 19:02:20 | admin | Successful login
+2025-08-03 19:02:21 | System | Loaded 12 courses from file
+2025-08-03 19:02:21 | System | Loaded 1 students from file
+2025-08-03 19:02:21 | System | Loaded 12 courses from file
+2025-08-03 19:02:21 | System | Loaded 1 students from file
+2025-08-03 19:02:21 | admin | Accessed dashboard
+2025-08-03 19:03:59 | System | Loaded 1 students from file
+2025-08-03 19:04:02 | System | Loaded 1 students from file
+2025-08-03 19:04:02 | System | Loaded 1 students from file
+2025-08-03 19:04:26 | System | Loaded 1 students from file
+2025-08-03 19:04:26 | System | Loaded 1 students from file
+2025-08-03 19:04:26 | System | Saved 2 students to file
+2025-08-03 19:04:26 | STU1569 | New student registered
+2025-08-03 19:04:29 | System | Loaded 2 students from file
+2025-08-03 19:04:57 | System | Loaded 2 students from file
+2025-08-03 19:04:57 | STU1569 | Successful login
+2025-08-03 19:04:58 | System | Loaded 12 courses from file
+2025-08-03 19:04:58 | System | Loaded 2 students from file
+2025-08-03 19:04:58 | System | Loaded 12 courses from file
+2025-08-03 19:04:58 | System | Loaded 2 students from file
+2025-08-03 19:04:58 | STU1569 | Accessed dashboard
+2025-08-03 19:38:19 | STU1569 | Logged out
+2025-08-03 19:38:19 | System | Loaded 2 students from file
+2025-08-03 19:40:29 | System | Loaded 2 students from file
+2025-08-03 19:40:35 | System | Loaded 2 students from file
+2025-08-03 19:40:35 | admin | Successful login
+2025-08-03 19:40:36 | System | Loaded 12 courses from file
+2025-08-03 19:40:36 | System | Loaded 2 students from file
+2025-08-03 19:40:36 | System | Loaded 12 courses from file
+2025-08-03 19:40:36 | System | Loaded 2 students from file
+2025-08-03 19:40:36 | admin | Accessed dashboard
+2025-08-03 19:40:43 | admin | Navigated to Course Registration
+2025-08-03 19:40:44 | System | Loaded 12 courses from file
+2025-08-03 19:40:49 | System | Loaded 12 courses from file
+2025-08-03 19:40:53 | System | Loaded 2 students from file
+2025-08-03 19:40:54 | admin | Student record updated
+2025-08-03 19:40:56 | System | Loaded 12 courses from file
+2025-08-03 19:41:00 | System | Loaded 12 courses from file
+2025-08-03 19:41:00 | System | Loaded 2 students from file
+2025-08-03 19:41:00 | System | Loaded 12 courses from file
+2025-08-03 19:41:00 | System | Loaded 2 students from file
+2025-08-03 19:41:00 | admin | Accessed dashboard
+2025-08-03 19:41:06 | admin | Navigated to View Courses
+2025-08-03 19:41:06 | System | Loaded 12 courses from file
+2025-08-03 19:41:32 | System | Loaded 2 students from file
+2025-08-03 19:41:33 | admin | Student record updated
+2025-08-03 19:41:34 | System | Loaded 12 courses from file
+2025-08-03 19:41:36 | System | Loaded 12 courses from file
+2025-08-03 19:41:36 | System | Loaded 2 students from file
+2025-08-03 19:41:36 | System | Loaded 12 courses from file
+2025-08-03 19:41:36 | System | Loaded 2 students from file
+2025-08-03 19:41:36 | admin | Accessed dashboard
+2025-08-03 19:41:47 | admin | Logged out
+2025-08-03 19:41:47 | System | Loaded 2 students from file
+2025-08-03 19:45:00 | System | Loaded 2 students from file
+2025-08-03 19:45:21 | System | Loaded 2 students from file
+2025-08-03 19:45:21 | admin | Failed login attempt
+2025-08-03 19:45:21 | System | Loaded 2 students from file
+2025-08-03 19:45:25 | System | Loaded 2 students from file
+2025-08-03 19:45:25 | admin | Successful login
+2025-08-03 19:45:26 | System | Loaded 12 courses from file
+2025-08-03 19:45:26 | System | Loaded 2 students from file
+2025-08-03 19:45:26 | System | Loaded 12 courses from file
+2025-08-03 19:45:26 | System | Loaded 2 students from file
+2025-08-03 19:45:26 | admin | Accessed dashboard
+2025-08-03 20:49:03 | System | Loaded 2 students from file
+2025-08-03 20:49:08 | System | Loaded 2 students from file
+2025-08-03 20:49:08 | admin | Successful login
+2025-08-03 20:49:10 | System | Loaded 12 courses from file
+2025-08-03 20:49:10 | System | Loaded 2 students from file
+2025-08-03 20:49:10 | System | Loaded 12 courses from file
+2025-08-03 20:49:10 | System | Loaded 2 students from file
+2025-08-03 20:49:10 | admin | Accessed dashboard
+2025-08-03 20:49:49 | admin | Navigated to Analytics
+2025-08-03 20:49:49 | System | Loaded 2 students from file
+2025-08-03 20:49:49 | System | Loaded 12 courses from file
+2025-08-03 20:49:49 | System | Loaded 2 students from file
+2025-08-03 20:49:49 | System | Loaded 12 courses from file
+2025-08-03 20:49:49 | System | Loaded 2 students from file
+2025-08-03 20:49:49 | System | Loaded 12 courses from file
+2025-08-03 20:49:49 | System | Loaded 2 students from file
+2025-08-03 20:49:49 | System | Loaded 12 courses from file
+2025-08-03 20:49:49 | admin | Accessed Analytics page
+2025-08-03 20:49:58 | System | Loaded 12 courses from file
+2025-08-03 20:49:58 | System | Loaded 2 students from file
+2025-08-03 20:49:58 | System | Loaded 12 courses from file
+2025-08-03 20:49:58 | System | Loaded 2 students from file
+2025-08-03 20:49:58 | admin | Accessed dashboard
+2025-08-03 20:50:02 | admin | Navigated to Analytics
+2025-08-03 20:50:02 | System | Loaded 2 students from file
+2025-08-03 20:50:02 | System | Loaded 12 courses from file
+2025-08-03 20:50:02 | System | Loaded 2 students from file
+2025-08-03 20:50:02 | System | Loaded 12 courses from file
+2025-08-03 20:50:02 | System | Loaded 2 students from file
+2025-08-03 20:50:02 | System | Loaded 12 courses from file
+2025-08-03 20:50:02 | System | Loaded 2 students from file
+2025-08-03 20:50:02 | System | Loaded 12 courses from file
+2025-08-03 20:50:02 | admin | Accessed Analytics page
+2025-08-03 20:50:04 | System | Loaded 12 courses from file
+2025-08-03 20:50:04 | System | Loaded 2 students from file
+2025-08-03 20:50:04 | System | Loaded 12 courses from file
+2025-08-03 20:50:04 | System | Loaded 2 students from file
+2025-08-03 20:50:04 | admin | Accessed dashboard
+2025-08-03 20:50:06 | admin | Navigated to Profile
+2025-08-03 20:50:12 | System | Loaded 12 courses from file
+2025-08-03 20:50:12 | System | Loaded 2 students from file
+2025-08-03 20:50:12 | System | Loaded 12 courses from file
+2025-08-03 20:50:12 | System | Loaded 2 students from file
+2025-08-03 20:50:12 | admin | Accessed dashboard
+2025-08-03 20:50:17 | admin | Logged out
+2025-08-03 20:50:17 | System | Loaded 2 students from file
+2025-08-03 20:53:49 | System | Loaded 2 students from file
+2025-08-03 20:53:55 | System | Loaded 2 students from file
+2025-08-03 20:53:55 | admin | Successful login
+2025-08-03 20:53:56 | System | Loaded 12 courses from file
+2025-08-03 20:53:56 | System | Loaded 2 students from file
+2025-08-03 20:53:56 | System | Loaded 12 courses from file
+2025-08-03 20:53:56 | System | Loaded 2 students from file
+2025-08-03 20:53:56 | admin | Accessed dashboard
+2025-08-03 20:54:00 | admin | Navigated to Profile
+2025-08-03 20:54:01 | System | Loaded 12 courses from file
+2025-08-03 20:54:01 | System | Loaded 2 students from file
+2025-08-03 20:54:01 | System | Loaded 12 courses from file
+2025-08-03 20:54:01 | System | Loaded 2 students from file
+2025-08-03 20:54:01 | admin | Accessed dashboard
+2025-08-03 20:54:03 | admin | Navigated to Analytics
+2025-08-03 20:54:03 | System | Loaded 2 students from file
+2025-08-03 20:54:03 | System | Loaded 12 courses from file
+2025-08-03 20:54:03 | System | Loaded 2 students from file
+2025-08-03 20:54:03 | System | Loaded 12 courses from file
+2025-08-03 20:54:03 | System | Loaded 2 students from file
+2025-08-03 20:54:03 | System | Loaded 12 courses from file
+2025-08-03 20:54:03 | System | Loaded 2 students from file
+2025-08-03 20:54:03 | System | Loaded 12 courses from file
+2025-08-03 20:54:03 | admin | Accessed Analytics page
+2025-08-03 20:54:08 | System | Loaded 12 courses from file
+2025-08-03 20:54:08 | System | Loaded 2 students from file
+2025-08-03 20:54:08 | System | Loaded 12 courses from file
+2025-08-03 20:54:08 | System | Loaded 2 students from file
+2025-08-03 20:54:08 | admin | Accessed dashboard
+2025-08-03 20:54:47 | System | Loaded 2 students from file
+2025-08-03 20:54:52 | admin | Logged out
+2025-08-03 20:54:52 | System | Loaded 2 students from file
+2025-08-03 20:56:01 | System | Loaded 2 students from file
+2025-08-03 20:56:05 | System | Loaded 2 students from file
+2025-08-03 20:56:05 | admin | Successful login
+2025-08-03 20:56:07 | System | Loaded 12 courses from file
+2025-08-03 20:56:07 | System | Loaded 2 students from file
+2025-08-03 20:56:07 | System | Loaded 12 courses from file
+2025-08-03 20:56:07 | System | Loaded 2 students from file
+2025-08-03 20:56:07 | admin | Accessed dashboard
+2025-08-03 20:56:16 | admin | Logged out
+2025-08-03 20:56:16 | System | Loaded 2 students from file

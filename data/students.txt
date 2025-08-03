@@ -1,8 +1,9 @@
 # Student Data Format: ID,Name,Email,Program,Semester,Password,RegisteredCourses
-# Created: 2025-08-02 12:08:52
-# Students must register through the application to create accounts
+# Last Updated: 2025-08-03 19:04:26
+# Students registered through the application
 
-# Admin account for system management
+# Admin account
 admin,System Administrator,admin@university.edu,Administration,N/A,admin,
 
-# Student accounts will be added here when they register
+# Registered Students
+STU1569,Prasiddha Lamichhane,prasiddha708@gmail.com,Computer Science,Spring 2024,123123,
